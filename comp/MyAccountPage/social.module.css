@@ -1,0 +1,99 @@
+.page{
+    background: rgb(255, 255, 255);
+    width: 90%;
+    min-height: 500px;
+    height: auto;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+.header{
+ 
+    width: 95%;
+    margin-top: 10px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap:5px;
+    border-bottom: 2px solid rgb(34, 0, 0);
+}
+.header h3{
+     font-family: 'Mimir-bold';
+     font-size: 34px;
+     margin-left: 10px;  
+}
+.but{
+    margin-left: 20px;
+    display: flex;
+    gap: 10px;
+   
+}
+.but button{
+    font-family: 'Mimir';
+    font-size: 15px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.UserWrapper{
+    width: 100%;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+.userList{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    margin-top: 0px;
+}
+
+.user{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    height: 80px;
+    width: 90%;
+    border-bottom: 1px solid rgb(46, 13, 13);
+    
+}
+.user img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.newsFeed{
+   
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    width: 90%;
+    padding-top: 15px;
+    padding-bottom:60px;
+    padding-left: 20px;
+}
+.post{
+    display: flex;
+    align-items: center;
+    gap:15px;
+    font-size: 14px;
+    border-bottom:1px solid black;
+}
+.postinfo{
+    display: flex;
+    gap:10px;
+}
+.post img{
+    width: 50px;
+    height: 50px;
+}
+.Backbutton{
+    width: 32px;
+    height: 32px;
+    margin-left: -25px;
+    margin-bottom: -17px;
+    background: transparent;
+    border:none;
+}

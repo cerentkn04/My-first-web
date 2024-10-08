@@ -1,0 +1,55 @@
+.page{
+    background: rgb(255, 255, 255);
+    width: 90%;
+    min-height: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    border-radius: 12px;
+}
+.header {
+    width: 95%;
+    margin-top: 10px;
+    margin-left: 40px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-bottom: 2px solid rgb(34, 0, 0);
+    padding-bottom: 10px;
+  }
+  
+  .header h2 {
+    font-family: 'Mimir-bold';
+    font-size: 34px;
+    margin-left: 10px;
+  }
+  .BackButton{
+    background: transparent; 
+    margin-left: -25px;
+    width: 30px;
+    border:none;
+  }
+
+  .backButton{
+    background: transparent; 
+    margin-left: -55px;
+    width: 30px;
+    border:none;
+  }
+.List{
+  position: relative;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+ 
+  border-bottom: 2px solid rgba(0, 0, 0, 0.644);
+  gap:20px;
+  margin: 40px;
+}
+.activityItem{
+  border-bottom: 1px solid black;
+  padding-inline: 40px;
+  padding-bottom: 10px;
+}

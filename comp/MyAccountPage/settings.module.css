@@ -1,0 +1,65 @@
+.page{
+    background: rgb(255, 255, 255);
+    width: 90%;
+    height: 500px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+}
+.header{
+    margin-inline: 40px;
+    border-bottom: 2px solid black;
+    font-family: 'Mimir-bold';
+    font-size: 32px;
+}
+.ProfileSettings{
+    position: relative;
+    width: 100%;
+  
+}
+.buttonToProfileSets{
+    display: flex;
+    margin-left: 50px;
+    padding-top: 20px;
+    width: 200px;
+    background: transparent;
+    border:none;
+    border-bottom: 1px solid black;
+    justify-content:flex-start;
+    cursor:alias;
+}
+
+.visibilitySets p{
+    width: 500px;
+     margin-bottom: 5px;
+}
+.visibilitySets button{
+    width: 200px;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    text-align: start;
+}
+.visibilitySets button{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    text-align: start;
+    background: transparent;
+    border: none;
+}
+.visibilitySets button svg{
+   width: 20px;
+   margin-right: 20px;
+
+}
+.Backbutton{
+    width: 32px;
+    height: 32px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background: transparent;
+    border:none;
+}

@@ -1,0 +1,117 @@
+.page{
+    background-color: 	#513f39;
+    width: 100%;
+    height: 100vb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header{
+    background:	#e8e2d9;
+    width: 100%;
+    padding-inline: 60px;
+    padding-right: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Nunito-bold';
+}
+.header button{
+    background: transparent;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border:2px solid rgba(0, 0, 0, 0.603);
+}
+.sub0{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.header img{
+    width: 60px;
+    border-radius: 50%;
+}
+.username{
+    font-size: 24px;
+}
+.follows{
+    font-weight: 800;
+}
+.main{
+    margin: 30px;
+    width: 60%;
+    background:	#e8e2d9;
+    min-height: 750px ;
+    border-radius: 12px;
+    display: flex;
+    justify-content:center ;
+}
+.wrapper h2{
+    width: 95%;
+    margin-top: 20px;
+    padding-left: 20px;
+    border-bottom: 2px solid rgba(22, 19, 19, 0.623);
+   
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:40px;
+}
+.bookLists{
+    padding-inline: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap:40px;
+}
+.listItem{
+    padding: 20px;
+    padding-bottom: 130px;
+    font-family: 'Nunito';
+}
+.imageofbooks{
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.books {
+    position: relative;
+    margin-left: 33%;
+    width: 150px; 
+    height: 200px; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+  .bookImage {
+    margin-top: 10px;
+    position: absolute;
+    width: 100px; 
+    height: auto;
+  }
+  
+  .bookImage0 {
+    top: 0;
+    left: 0;
+    z-index: 3;
+  }
+  
+  .bookImage1 {
+    top: 5px;
+    left: 5px; 
+    z-index: 2;
+  }
+  
+  .bookImage2 {
+    top: 10px; 
+    left: 10px;
+    z-index: 1;
+  }
+  .Bookimgs{
+    position: relative;
+  }

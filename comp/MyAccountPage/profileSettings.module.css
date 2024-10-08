@@ -1,0 +1,95 @@
+.page{
+    display: flex;
+ 
+    
+}
+.closeButton{
+    background: transparent;
+    width: 28px;
+    height: 28px;
+    margin: 10px;
+    border: none;
+}
+.wrapper{
+    width: 100%;
+
+}
+.subsection0{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    padding-top: 60px;
+    padding-left:0px ;
+    gap:40px
+}
+.attributes {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+.attributes input{
+    background: transparent;
+    border: none;
+    color:black;
+    height: 20px;
+    padding-top: 5px;
+    padding-left: 5px;
+    border-bottom: 1px solid grey;
+ 
+}
+.attributes input::placeholder{
+
+    color:black;
+}
+
+.imageWrapper {
+    position: relative;
+    display: inline-block;
+}
+.pfp{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.imageWrapper::after {
+    content: '';
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M21 18L19.9999 19.094C19.4695 19.6741 18.7502 20 18.0002 20C17.2501 20 16.5308 19.6741 16.0004 19.094C15.4693 18.5151 14.75 18.1901 14.0002 18.1901C13.2504 18.1901 12.5312 18.5151 12 19.094M3.00003 20H4.67457C5.16376 20 5.40835 20 5.63852 19.9447C5.84259 19.8957 6.03768 19.8149 6.21663 19.7053C6.41846 19.5816 6.59141 19.4086 6.93732 19.0627L19.5001 6.49998C20.3285 5.67156 20.3285 4.32841 19.5001 3.49998C18.6716 2.67156 17.3285 2.67156 16.5001 3.49998L3.93729 16.0627C3.59139 16.4086 3.41843 16.5816 3.29475 16.7834C3.18509 16.9624 3.10428 17.1574 3.05529 17.3615C3.00003 17.5917 3.00003 17.8363 3.00003 18.3255V20Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    background-position: center; 
+    position: absolute;
+    top: 38%; 
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.passwords{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    gap:10px ;
+}
+
+.imageWrapper:hover::after {
+    opacity: 1;
+}
+.message{
+    z-index: 3;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    bottom: 0px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+    transition: opacity 0.3s ease;
+    left:42%;
+    margin-bottom: -10%;
+   padding: 10px;
+    
+}

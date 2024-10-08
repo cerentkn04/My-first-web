@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap');
+
+
+.MainHead {
+  width: 100%;
+  position: relative; 
+  z-index: 1; 
+}
+.bod{
+  display:flex;
+  flex-direction: column;
+  gap: 90px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  position: absolute; 
+  top: 53px;
+  width: 100%;
+  z-index: 2; 
+}
+.main{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap:30px;
+}
+.SideBar{
+  position: relative;
+  
+
+}
+.booksList{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 4px solid rgb(82, 78, 78);
+  border-radius: 30px;
+  background: rgb(209, 209, 209);
+  margin-block: 30px;
+  width: 80%;
+}
+.booksList{
+ height: 800px;
+  overflow-y: auto; 
+}
+
+/* Optionally, you can add styles for a scrollbar */
+.booksList::-webkit-scrollbar {
+  width: 8px; /* Adjust the width of the scrollbar */
+}
+
+.booksList::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color of the scrollbar thumb */
+  border-radius: 4px; /* Rounded corners of the scrollbar thumb */
+}
+
+.booksList::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Color of the scrollbar thumb when hovered */
+}

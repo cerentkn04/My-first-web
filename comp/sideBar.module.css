@@ -1,0 +1,138 @@
+
+.sideBar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #513f39;
+    width: 250px;
+    height:100%; 
+}
+.filterbar{
+    color:rgb(255, 245, 231);
+    font-family: 'Nunito', sans-serif;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.filterbar nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin-block: 10px;
+    padding:10px;
+    border:1px solid #ffffff;
+}
+.filterbar nav:hover{
+    background-color: #6e5a53;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.filterbar header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    font-size: larger;
+    margin-left:5px;
+}
+.filterbar svg{
+    width: 30px;
+    height: 30px;
+}
+
+.subsection{
+  z-index: 2;
+  padding: 10px; 
+ 
+    margin-top:12px;
+    display: flex;
+    flex-direction: column;
+}
+.AuthandType li{
+    padding: 4px;
+    margin-block: 4px;
+    padding-left: 40px;
+}
+
+.tags{
+    display: flex;
+   
+}
+
+.tagItem{
+    padding: 4px 6px;
+    margin: 4px 0;
+    margin-inline: 3px;
+    cursor: pointer;
+    background-color: #7e7e7e;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+    font-size: 14px;
+    display: inline-block;
+
+}
+
+.scrollableList {
+    max-height: 200px;
+    overflow-y: auto; 
+  }
+
+  .scrollableList::-webkit-scrollbar {
+    width: 8px; 
+  }
+  
+  .scrollableList::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+  }
+  
+  .scrollableList::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
+  .listItem:hover {
+    cursor: pointer;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 8px; 
+  }
+  
+  .listItem:hover {
+    background-color: #fffefe6e; 
+  }
+
+  .sliderValues {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: 14px;
+  }
+.FilterButton{
+  margin-block: 20px;
+  padding:10px;
+  border: 2px solid rgb(255, 245, 231);
+  color:rgb(255, 245, 231);
+  font-family:'Nunito', sans-serif;
+  background: transparent;
+  border-radius: 15px;
+}
+.bookItem{
+  z-index: 5;
+  background-color: blueviolet;
+}
+
+.rc-slider-track {
+  background-color: #ffffff; 
+}
+.rc-slider-handle {
+  border-color: #ffffff; 
+}
+.subsectionn{
+  padding:10px;
+  width: 180px;
+  height: auto;
+}

@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Mimir-bold';
+    src: url('/fonts/MinionPro-BoldCn.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+.page{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+    background: rgb(129, 129, 129);
+   
+}
+.head{
+    height: 90px;
+    width: 100%;
+    padding-inline: 11%;
+    font-family: 'Mimir-bold';
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    background: #e8e2d9;
+}
+.main{
+
+    display: flex;
+    gap :80px;
+    
+}
+.head h1{
+    margin-left:-140px;
+}
+.subpage{
+margin-top: 1.5%;
+width: 100%;
+}

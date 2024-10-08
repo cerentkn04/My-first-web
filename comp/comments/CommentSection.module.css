@@ -1,0 +1,52 @@
+
+
+.body{
+  margin-left: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  
+}
+.inputWrap{
+  display: flex;
+  justify-content: start;
+  width: 60%;
+  gap:100px;
+  align-items: center;
+  border-bottom: 1px solid #000000;
+
+
+}
+.input{
+    display: flex;
+    margin-left: 30px;
+   
+    gap:20px;
+    
+  }
+  .input input{
+ 
+    color: #cccccc;
+    font-size: 16px;
+    padding: 10px 20px 10px ;
+    width: 170px;
+    display: block;
+    border: none;
+    background: transparent;
+}
+.input input::placeholder {
+    color: #cccccc; 
+    opacity: 1; 
+  }
+.input button{
+
+    display: block;
+    width: auto;
+    border: none;
+    background: transparent;
+
+}
+.input button:hover{
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); 
+  transition: border-color 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease; 
+}

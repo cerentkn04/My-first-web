@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'Mimir';
+    src: url('/fonts/MinionPro-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.searchInput{
+    display:flex;
+    position:relative;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    transition: all 1s;
+    width: 50px;
+    height:50px;
+    background: #EFEFEE;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border:4px solid #A3826C;
+    padding: 5px;
+}
+.searchBar input{
+    position: absolute;
+    top:0; left:0;
+    height:42.5px;
+    width: 100%;
+    line-height: 30px;
+    outline:0;
+    border:0;
+    background-color: #A3826C;
+    border-radius: 20px;
+    font-size: 18px;
+    padding:0 20px;
+    display: none;
+}
+.searchIcon{
+    box-sizing: border-box;
+    position:absolute;
+    padding:10px;
+    height: 42.5px;
+    width: 42.5px;
+    top:0; right:0;
+    border-radius: 50%;
+ 
+    text-align: center;
+    font-size: 1.2rem;
+    transform: all 1s;
+}
+.searchInput:hover{
+    width: 300px;
+    cursor:pointer;
+ }
+ .searchInput:hover input{
+    display:block;
+ }
+ .searchInput:hover .searchIcon{
+    position: absolute;
+     background-color:  #EFEFEE; ;
+ }
+.searchBar{
+
+    width: 74%;
+
+}
+ 
+ .books{
+    display:flex;
+    align-items: center;
+    gap: 10px; 
+    border-bottom: solid rgb(63, 63, 63);
+    margin-left: 230px;
+    width: 100%;
+    height: 300px;
+ }
+.BookImg{
+    background-color: #A3826C;
+    margin-left: 80px;
+}
+.ContentBox{
+    display: flex;
+    flex-direction: column;
+    align-items:baseline;
+    border-left: dashed;
+    padding-left: 50px;
+    gap: 20px;
+    height: 61%;
+    width: 80%;
+}
+.BookName{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   margin-top: 10px;
+    margin-left: -85%;
+    font-weight: 800;
+    
+}
+.Auth{
+    margin-left: -85%;
+}

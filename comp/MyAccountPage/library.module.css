@@ -1,0 +1,264 @@
+.page {
+    background: rgb(255, 255, 255);
+    width: 90%;
+    min-height: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    border-radius: 12px;
+ 
+  }
+  
+  .header {
+    width: 95%;
+    margin-top: 10px;
+    margin-left: 40px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-bottom: 2px solid rgb(34, 0, 0);
+    padding-bottom: 10px;
+  }
+  
+  .header h2 {
+    font-family: 'Mimir-bold';
+    font-size: 34px;
+    margin-left: 10px;
+  }
+  
+  .main {
+    display: flex;
+    margin-top: 20px;
+    gap: 40px;
+  }
+  .defaultMain{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  
+  .addList {
+    margin-left: 5%;
+    border: 2px solid rgb(41, 11, 11);
+    width: 175px;
+    height: 265px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bookLists {
+    display: flex;
+    align-items: center;
+  
+    gap: 40px;
+  }
+
+  .bookList {
+    background: transparent;
+    border: 2px solid rgb(41, 11, 11);
+    border-radius: 12px;
+    padding: 10px;
+    width: 80%;
+    min-height: 275px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+  }
+  .bookList p{
+    margin-top: 10px;
+    font-family:'Nunito-bold', sans-serif;
+    font-size: 20px;
+  }
+  .bookList span{
+    font-size: 15px;
+  }
+  .books {
+    position: relative;
+    margin-left: 33%;
+    width: 150px; 
+    height: 200px; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+  .bookImage {
+    margin-top: 10px;
+    position: absolute;
+    width: 100px; 
+    height: auto;
+  }
+  
+  .bookImage0 {
+    top: 0;
+    left: 0;
+    z-index: 3;
+  }
+  
+  .bookImage1 {
+    top: 5px; 
+    left: 5px;
+    z-index: 2;
+  }
+  
+  .bookImage2 {
+    top: 10px; 
+    left: 10px; 
+    z-index: 1;
+  }
+  
+  .errmes {
+    background: rgb(255, 93, 255);
+  }
+  .popupForm {
+    position: fixed; 
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    transform: translate(-50%, -50%); 
+    background: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    z-index: 10; 
+  }
+  
+  .popupForm form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Nunito';
+  }
+  
+  .popupForm label {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+  }
+  
+  .popupForm input {
+    width: 200px;
+    margin-top: 5px;
+    padding: 8px;
+  }
+  
+  .popupForm button {
+    margin-top: 10px;
+    padding-block: 10px;
+    cursor: pointer;
+    background-color:rgba(159, 159, 255, 0.281);
+    border-radius: 7px;
+    width: 180px;
+  }
+  
+  .popupForm button[type="button"] {
+    background-color: rgb(197, 32, 32);
+
+    color: rgb(255, 255, 255);
+    border: none;
+  }
+  .BackButton{
+    background: transparent; 
+    margin-left: -25px;
+    width: 30px;
+    border:none;
+
+  }
+
+  .backButton{
+    background: transparent; 
+    margin-left: -55px;
+    width: 30px;
+    border:none;
+  }
+  .listWrapper{
+    display: flex;
+    align-items: start;
+    margin-left: 110px;
+    width: 100%;
+  }
+
+  .bookListDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    height: auto;
+    min-height: 300px;
+  }
+  .listinfo{
+    padding-left: 33px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.63) ;
+   
+  
+    
+  }
+  .listinfo h3{
+    font-family: 'Mimir';
+    font-size: 24px;
+  }
+  .listinfo span{
+    margin-left: 10px;
+  }
+ 
+  .bookImageLarge{
+      width: 120px;
+      height: auto;
+  }
+  .books{
+    display: flex;
+    gap:40px;
+  }
+  .booksinList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: 30px;
+    margin-top: 20px;
+    gap:30px;
+
+
+  }
+  .bookDetail{
+    padding: 20px;
+    background: transparent;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.63)
+  }
+  .Backbutton{
+    width: 32px;
+    height: 32px;
+    margin-top: 10px;
+    margin-left: -30px;
+    background: transparent;
+    border:none;
+}
+.contextMenu {
+  background-color: white;
+  border: 1px solid #ccc;
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.contextMenu li {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.contextMenu li:hover {
+  background-color: #f0f0f0;
+}

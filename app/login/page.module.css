@@ -1,0 +1,102 @@
+.page {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: aliceblue;
+    font-family: 'Nunit';
+  }
+  
+  .board {
+    height: 90%;
+    width: 90%;
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 8px solid #A79076;
+    border-radius: 40px;
+    background-color:#513f39;
+    overflow: hidden;
+  }
+  
+  .formContainer {
+    width: 100%;
+    display: flex;
+    position: relative;
+    transition: transform 0.6s ease-in-out;
+  }
+  
+  .form {
+    background:	#e8e2d9;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7rem;
+    gap:10px;
+    box-sizing: border-box;
+    transition: all 0.6s ease-in-out;
+    opacity: 1;
+    transform: translateX(0%);
+ 
+}
+
+  .showLogin .form:first-child {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+  
+  .showLogin .form:nth-child(2) {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  
+  .showSignUp .form:first-child {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  
+  .showSignUp .form:nth-child(2) {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+  
+  .form input {
+    width: 60%;
+    margin-top: 5px;
+    height: 38px;
+    border: solid rgb(207, 207, 207);
+    border-radius: 15px;
+    font-size: 15px;
+    padding: 0 20px;
+  }
+  
+  .form button {
+    width: 50%;
+    height: 38px;
+    color: #525252;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    background-color: rgb(253, 228, 228);
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+  }
+  
+  .form button:hover {
+    background-color: rgb(207, 163, 163);
+  }
+  
+  .form div {
+    margin-left: 10px;
+  }
+  
+  .span {
+    margin-top: 10px;
+  }
+  

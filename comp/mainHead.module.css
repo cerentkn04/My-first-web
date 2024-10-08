@@ -1,0 +1,71 @@
+
+@font-face {
+    font-family: 'Mimir';
+    src: url('/fonts/MinionPro-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Mimir-bold';
+    src: url('/fonts/MinionPro-BoldCn.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.sitename{
+    font-family: 'Mimir';
+    position: relative;
+    text-align: center;
+    left: -90px;
+   
+
+}
+
+.hehe{
+    height: 90px;
+    position: absolute;
+    width: 100%;
+    padding-inline: 11%;
+    font-family: 'Mimir-bold';
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    z-index: 100;
+    background: #e8e2d9;
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-around;
+    width: max( 10% ,500px);
+}
+.navbar ul{
+    position: relative;
+    display:flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    width: min(60% , 600px);
+}
+.navbar ul li {
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.navbar ul li a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+.logoutButton {
+    background-color: transparent; 
+    width: 35px;
+    border: none;
+    cursor: pointer; 
+    padding: 0;
+    margin-top: 10%; 
+    display: inline-flex; 
+    align-items: center; 
+    justify-content: center; 
+  }
+  
